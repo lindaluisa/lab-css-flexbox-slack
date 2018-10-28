@@ -91,15 +91,15 @@ nav {
 }
 
 .signin-input {
-  padding: 1em 22em 1em 1em;
+  padding: 1.3em 22em 1.3em 1em;
   border: 1px solid #F4F3F4;
   border-radius: 3px;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   text-align: left;
 }
 
 .button-text {
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -108,6 +108,36 @@ nav {
   font-family: 'Roboto', serif;
   font-size: 1em;
   color: #5b5e6d;
+  margin-bottom: 2.5em;
 }
 
-  /* media queries */
+/* main */
+.main-container {
+  background-color: #F4F3F4;
+  text-align-last: center;
+  padding: 1.5em 1em;
+}
+
+.main-title {
+  font-family: 'Volkhov', serif;
+  letter-spacing: -1px;
+  color: #2C303F;
+  font-size: 1.5em;
+}
+.main-button {
+  padding: 1em 13em;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #3f46ad;
+  color: #3f46ad;
+  font-weight: bold;
+}
+
+.main-subtitle {
+  font-family: 'Roboto', serif;
+  color: #5b5e6d;
+  text-align: center;
+  margin-bottom: 2em;
+  letter-spacing: 1px;
+}
+/* media queries */
