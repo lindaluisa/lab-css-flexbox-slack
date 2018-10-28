@@ -183,4 +183,37 @@ hr {
 /* footer */
 
 
+.slack-hash {
+  width: 25%;
+  padding: 0.5em 1em;
+}
+
+.footer-wrapper {
+  font-family: Helvetica;
+  color: #5b5e6d;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-component {
+  width: 40%;
+}
+.component-wrapper {
+  padding: 0;
+  list-style-type: none;
+}
+
+.component-header {
+  font-weight: bold;
+  font-family: #5b5e6d;
+}
+
+.component-wrapper li {
+  padding: 12px;
+  color:  #5b5e6d;
+}
+
+
 /* media queries */
