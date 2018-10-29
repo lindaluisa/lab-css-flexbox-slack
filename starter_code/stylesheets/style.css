@@ -188,7 +188,7 @@ hr {
   padding: 0.5em 1em;
 }
 
-.footer-wrapper {
+.four-wrapper {
   font-family: Helvetica;
   color: #5b5e6d;
   font-size: 1em;
@@ -244,6 +244,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1em;
 }
 
 .socialMedia-wrapper {
@@ -256,3 +257,45 @@ hr {
   padding-left: 12px;
 }
 /* media queries */
+@media (min-width: 767px) and (max-width:961px) {
+
+/* .client-wrapper  */
+
+.footer-wrapper {
+    display: flex;
+    padding: 0;
+  }
+
+.footer-component {
+  width: 20%;
+
+}
+
+.four-wrapper {
+  font-size: 12px;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+}
+
+.slack-hash {
+  width: 100%;
+  padding: 0 3em;
+}
+
+.img-slack {
+  width: 13%;
+}
+
+.footer2-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.media-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
+}
